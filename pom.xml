@@ -20,6 +20,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.28</version> <!-- Make sure this is the latest stable version -->
